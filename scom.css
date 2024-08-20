@@ -1,0 +1,237 @@
+
+.nav {
+    width: 100%;
+    height: 10%;
+    margin-top: 0px;
+    padding: 0px;
+    background: #EDF1FE;
+    box-shadow: 0px 8px 6px rgba(207, 217, 247, 0.48);
+
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        height: 50%;
+        margin-left: 3%;
+        margin-top: 7%;
+    }
+
+    .settings {
+        position: absolute;
+        right: 5;
+        margin-top: 5%;
+        height: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        height: 50%;
+        margin-left: 3%;
+        margin-top: 1.5%;
+    }
+
+    .settings {
+        position: absolute;
+        right: 7;
+        margin-top: 1%;
+        height: 26%;
+    }
+}
+
+
+
+
+
+.settings:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1%;
+    display: block;
+    width: 100%;
+}
+
+.footer-text {
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    /* identical to box height */
+
+    color: #B5B9C8;
+
+
+}
+
+.footer-github {
+    vertical-align: sub;
+
+}
+
+.block1 {
+    /* Rectangle 5 */
+
+    box-sizing: border-box;
+
+
+    background: #FCFEFF;
+    mix-blend-mode: normal;
+    box-shadow: -4px -4px 6px rgba(99, 99, 99, 0.11), inset -4px -4px 6px rgba(71, 71, 71, 0.11);
+    border-radius: 24px;
+
+
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 18%;
+    height: 30%;
+    justify-content: center;
+}
+
+.btn-edit {
+    /* Rectangle 7 */
+    width: 85%;
+    height: 28%;
+
+    opacity: 1 !important;
+    background: #005FB8;
+    border-radius: 16px;
+    border: rgba(0, 0, 0, 0.1622);
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.btn-edit:hover {
+    background-color: rgba(0, 95, 184, 0.9);
+}
+
+.btn-edit:active {
+    background-color: rgba(0, 95, 184, 0.8);
+}
+
+.btn-edit-text {
+    /* Text */
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: rgba(255, 255, 255, 0.8956);
+
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.btn-edit-icon {
+    vertical-align: sub;
+    padding-right: 3%;
+}
+
+.block1-text1 {
+    /* 筛选 */
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+    color: #1C1C1C;
+    margin-left: 5%;
+    margin-top: 8%;
+
+
+}
+
+.block1-text2 {
+    /* Filters */
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height, or 100% */
+
+    color: #B0B0B0;
+    display: inline;
+
+
+}
+
+#types ,#types::after,#types:focus{
+    /* Rectangle 7 */
+
+    width: 85%;
+    height: 28%;
+    outline:none;
+    border: rgba(0, 0, 0, 0.1622) solid 0.1rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+
+    position: relative;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #000000;
+}
+
+
+
+option {
+    /* 推荐 */
+
+    width: 40px;
+    height: 16px;
+
+
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20x;
+    margin-left: 20%;
+    background-color: #fff;
+    color: #000000;
+
+
+}
+option:hover {
+    /* 推荐 */
+
+    width: 40px;
+    height: 16px;
+
+
+    font-family: 'Alibaba PuHuiTi 3.0';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20x;
+    margin-left: 20%;
+    background-color: #dbdbdb;
+    color: #262626;
+
+
+}
